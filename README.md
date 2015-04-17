@@ -31,24 +31,24 @@ server.port=7071
 
 You can do following Alfresco CMIS configurations :
 
-### Alfresco host by :
+##### Alfresco host by :
 alfresco.host=localhost
 
-### Alfresco port by :
+##### Alfresco port by :
 alfresco.port=8090
 
-### Alfresco admin username & password
+##### Alfresco admin username & password
 alfresco.username=admin
 
 alfresco.password=admin
 
-### Alfresco site name which Insurance policies are defined
+##### Alfresco site name which Insurance policies are defined
 alfresco.site.id=insurance-claim
 
 ## activiti-form-setup configurations
 activiti-form-setup configuration is in `Activiti App Installation Dir`/tomcat/webapps/activiti-app/WEB-INF/classes/META-INF/activiti-app/activiti-app.properties
 
-### You have to configure email property id, which you created in form.
+##### You have to configure email property id, which you created in form.
 form.email.property.id=intiatorEmail
 
 # Prerequisites in Alfresco
